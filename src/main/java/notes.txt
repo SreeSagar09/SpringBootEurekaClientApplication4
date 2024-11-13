@@ -1,0 +1,13 @@
+A Simple Netflix Eureka Client as Consumer application:
+Programs:
+* SpringBootClientApplication4Application.java
+* ConsumerController.java
+Notes:
+* The DiscoveryClient interface is used to discovery services such as Netflix Eureka or consul.io.
+* The getInstances method is used to get list of ServiceInstance object.
+* Some of main implementation classes of DiscoveryClient interface are:
+* org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient
+* org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient
+* org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClient
+Output:
+http://localhost:9801/consumer/getData
