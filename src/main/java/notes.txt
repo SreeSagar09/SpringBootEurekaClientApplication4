@@ -1,6 +1,6 @@
 A Simple Netflix Eureka Client as Consumer application:
 Programs:
-* SpringBootClientApplication4Application.java
+* SpringBootEurekaClientApplication4Application.java
 * ConsumerController.java
 Notes:
 * The DiscoveryClient interface is used to discovery services such as Netflix Eureka or consul.io.
